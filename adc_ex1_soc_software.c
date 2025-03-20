@@ -242,6 +242,7 @@ void SetupADCSoftware(void)
     // ADCA
     //
     EALLOW;
+    /*Channel and acq. window creation*/
     AdcaRegs.ADCSOC0CTL.bit.CHSEL = 2;  //SOC0 will convert pin A2
     AdcaRegs.ADCSOC0CTL.bit.ACQPS = acqps; //sample window is acqps +
                                            //1 SYSCLK cycles
