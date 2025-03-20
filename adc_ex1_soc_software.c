@@ -147,7 +147,7 @@ void main(void)
         // Convert, wait for completion, and store results
         // start conversions immediately via software, ADCA
         //
-        AdcaRegs.ADCSOCFRC1.all = 0x0003; //SOC0 and SOC1
+        AdcaRegs.ADCSOCFRC1.all = 0x0001; //SOC0 and SOC1
 
         //
         // Start conversions immediately via software, ADCB
