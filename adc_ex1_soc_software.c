@@ -57,14 +57,9 @@
 // $
 //###########################################################################
 
-//
-// Included Files
-//
+
 #include "f28x_project.h"
 
-//
-// Function Prototypes
-//
 void ConfigureADC(void);
 void SetupADCSoftware(void);
 
